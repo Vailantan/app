@@ -9,6 +9,7 @@ import Services from './Components/Services';
 import Testimonials from './Components/Testimonials';
 import Verification from './Components/Verification';
 import Book from './Components/Book';
+import Footer from './Components/Footer';
 export default function () {
   return (
     <div>
@@ -23,6 +24,7 @@ export default function () {
     <Route path="/verify" element={<Verification/>}></Route>
     <Route path="/book" element={<Book/>}></Route>
     </Routes>
+    <Footer/>
     </div>
   )
 }
