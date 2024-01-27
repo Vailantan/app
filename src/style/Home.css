@@ -1,0 +1,42 @@
+.main-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+/* Responsive Image Styles */
+.main-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Text Over Image Styles */
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* White Border Container Styles */
+.border-container {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+/* Responsive Text Styles */
+.border-container p {
+    font-size: 16px;
+}
