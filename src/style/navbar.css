@@ -25,6 +25,7 @@ a {
   height: 8vh;
   background: rgb(0, 33, 65);
   margin-bottom: 13px;
+
 }
 .nav__brand {
   text-transform: uppercase;
@@ -35,6 +36,7 @@ a {
   align-items: center;
   justify-content: space-around;
   gap: 3rem;
+  z-index: 1;
 }
 .nav__toggler {
   display: none;
