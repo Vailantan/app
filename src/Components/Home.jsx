@@ -1,18 +1,24 @@
 import React from 'react';
 import "../style/Home.css";
+import { motion, useViewportScroll, useTransform } from 'framer-motion';
+
 
 export default function Home() {
+  const { scrollYProgress } = useViewportScroll();
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.5]);
+  const scale1 = useTransform(scrollYProgress, [0, 1], [1, 1.1]);
+  const rotate = useTransform(scrollYProgress, [0, 1], [0, 360]);
   return (
     <>
-      <div className="main-container">
+      <motion.div className="main-container" style={{ scale: scale }}>
         <img src="homepic.png" alt="Your Image Description"/> 
         <div className="overlay-text">Learn with Dhara Global Solutions</div>
-
         <div className="border-container">
           <p>Get in touch</p>
         </div>
-      </div>
-      <div className="parent-container">
+      </motion.div>
+
+      <div className="parent-container" >
       <div className="a"> <div > <span> About Us</span> <p>Dhara Global Solutions is a forward-thinking 
       and dynamic organization dedicated to empowering engineering 
       students with the skills and knowledge needed to excel in the 
@@ -28,7 +34,7 @@ export default function Home() {
             allowing students to apply what they've learned and gain confidence in their skills.</p></div></div>
       <div className="b"><img src='abouthome.png'/></div>
     </div>
-    <div className="home-outer-container">
+    <div className="home-outer-container"  >
     <div className="home-centered-text">Services<p>We Provide a wide range of Services like College Intership,Industrial trainings,Resarch Guidance,Project Guidance and many more.</p></div>
     <div className="home-inner-container">
       <div className="home-inner-item">
@@ -52,22 +58,22 @@ export default function Home() {
   <div className="home-outer-container1">
     <div className="home-centered-text">Testimonials</div>
     <div className="home-inner-container">
-      <div className="home-inner-item">
+      <motion.div className="home-inner-item" style={{ scale: scale1 }}>
 
         <p className="home-image-description">"Good service, customized projects available for any domains, Trainings is well organized, Intership opportunities also available."</p>
        
         <span>Prasanth Y</span>
-        </div>
-      <div className="home-inner-item">
+        </motion.div>
+        <motion.div className="home-inner-item" style={{ scale: scale1}}>
         <p className="home-image-description">"The classes were said and we learned about arduino, this online class will be useful for us in the future."</p>
         <br></br>
         <span>Harmeed S</span>
-      </div>
-      <div className="home-inner-item">
+      </motion.div>
+      <motion.div className="home-inner-item"style={{ scale: scale1}}>
         <p className="home-image-description">"This whole experience was good .I have learnt plenty of stuff during the intership program."</p>
         <br></br>
         <span>Kiran K</span>
-        </div>
+        </motion.div>
     </div>
   </div>
     </>

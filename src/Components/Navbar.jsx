@@ -41,6 +41,13 @@ function Navbar() {
         <li className="nav__item">
         <NavLink to="/testimonials" className="nav__link" >Testimonials</NavLink> 
         </li>
+        
+        </li>
+        <li className="nav__item">
+        <li className="nav__item">
+        <NavLink to="/verify" className="nav__link" >Certificate Verification</NavLink> 
+        </li>
+        
         </li>
         <li className="nav__item">
         <li className="nav__item">

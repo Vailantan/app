@@ -30,6 +30,7 @@
   .footer-icon {
     width: 50px; /* Adjust the width of each icon */
     height: 50px; /* Adjust the height of each icon */
+    cursor: pointer;
     margin: 0 10px; /* Adjust the margin between icons */
     display: flex;
     align-items: center;
