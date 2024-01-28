@@ -72,7 +72,7 @@ const Verification=() =>{
   )}
   {showDiv2 && (
     <div className='showdiv2'>
-      {<p className='p-status' style={{ color: "#fff", textAlign: "center" }}>INVALID CODE  <br /><br /> PLEASE TRY AGAIN</p>}
+      {<p className='p-status1' style={{ color: "#fff", textAlign: "center" }}>INVALID CODE  <br /> PLEASE TRY AGAIN</p>}
 
     </div>
   )}

@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <nav className="nav">
       <a href="/" className="nav__brand">
-        Dhara Global Solution
+        Dhara Global Solutions
       </a>
       <div className="footer-icon" onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')}>
       <img src='white-linked-in-logo-of-two-letters.png' alt="LinkedIn Icon" />
