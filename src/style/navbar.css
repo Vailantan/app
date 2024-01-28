@@ -87,10 +87,3 @@ a {
 }
 
 
-@media only screen and (max-width: 680px) {
-  .nav__brand {
-  
-      left: -13%;
-  }
-
-}
