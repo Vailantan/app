@@ -20,21 +20,21 @@ function Navbar() {
   };
   return (
     <nav className="nav">
-      <a href="/" className="nav__brand">
+      <a href="/app" className="nav__brand">
         Dhara Global Solutions
       </a>
       <div className="footer-icon" onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')}>
-      <img src='white-linked-in-logo-of-two-letters.png' alt="LinkedIn Icon" />
+      <img src='https://i.imgur.com/aNQWKg0.png' alt="LinkedIn Icon" />
     </div>
     <div className="footer-icon" onClick={() => handleRedirect('https://mail.google.com/mail/u/0/#inbox')}>
-      <img src='white-link.png' alt="External Link Icon" />
+      <img src='https://i.imgur.com/UGUaRt4.png' alt="External Link Icon" />
     </div>
     <div className="footer-icon" onClick={() => handleRedirect('https://www.instagram.com/dharaglobalsolutions/')}>
-      <img src='white-instagram.png' alt="Instagram Icon" />
+      <img src='https://i.imgur.com/LrQqS09.png' alt="Instagram Icon" />
     </div>
       <ul className={active}>
         <li className="nav__item">
-        <NavLink to="/" className="nav__link" >Home</NavLink> 
+        <NavLink to="/app" className="nav__link" >Home</NavLink> 
         </li>
         <li className="nav__item">
         <NavLink to="/about" className="nav__link" >About</NavLink> 

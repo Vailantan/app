@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <motion.div className="main-container" style={{ scale: scale }}>
-        <img src="homepic.png" alt="Your Image Description"/> 
+        <img src="https://static.wixstatic.com/media/11062b_78134d5be79b47c69ab7a9d034104c44~mv2_d_3949_2633_s_4_2.jpg/v1/fill/w_1749,h_694,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_78134d5be79b47c69ab7a9d034104c44~mv2_d_3949_2633_s_4_2.jpg" alt="Your Image Description"/> 
         <div className="overlay-text">Learn with Dhara Global Solutions</div>
         <NavLink to="/verify" className="border-container">
           <p>Get in touch</p>
@@ -32,7 +32,7 @@ export default function Home() {
           relevant to their field of study. 2. We believe in the power of experiential
            learning. Our training involves practical projects, case studies, and workshops,
             allowing students to apply what they've learned and gain confidence in their skills.</p></div></div>
-      <div className="b"><img src='abouthome.png'/></div>
+      <div className="b"><img src='https://static.wixstatic.com/media/847996674cb0494ca49186e52092dbc3.jpg/v1/fill/w_865,h_619,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/847996674cb0494ca49186e52092dbc3.jpg'/></div>
     </div>
     <div className="home-outer-container"  >
     <div className="home-centered-text">Services<p>We Provide a wide range of Services like College Intership,Industrial trainings,Resarch Guidance,Project Guidance and many more.</p></div>
