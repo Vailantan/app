@@ -38,17 +38,17 @@ export default function Home() {
     <div className="home-centered-text">Services<p>We Provide a wide range of Services like College Intership,Industrial trainings,Resarch Guidance,Project Guidance and many more.</p></div>
     <div className="home-inner-container">
       <div className="home-inner-item">
-        <img src="homepic.png" alt="Image 1" className="home-circle-image" />
+        <img src="https://static.wixstatic.com/media/e3bd0b_9c62c464a38f43f0990022f58910e298~mv2.jpeg/v1/crop/x_50,y_0,w_400,h_400/fill/w_113,h_113,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Internship-Program.jpeg" alt="Image 1" className="home-circle-image" />
         <p className="home-image-name">College Intership</p>
         <p className="home-image-description">Professional learning experience that offers meaningfull,practice work related to a student's field of study or career interest.</p>
       </div>
       <div className="home-inner-item">
-        <img src="homepic.png" alt="Image 2" className="home-circle-image" />
+        <img src="https://static.wixstatic.com/media/e3bd0b_71ac1a9e8d6d4ed98008e88d2c79ba72~mv2.jpg/v1/crop/x_25,y_0,w_301,h_301/fill/w_113,h_113,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/b-tech-industrial-training-jaipur-1.jpg" alt="Image 2" className="home-circle-image" />
         <p className="home-image-name">Industrial Training</p>
         <p className="home-image-description">The essential system to open understudies to genuine work life circumstancs and to outfit them with the vital abilities.</p>
       </div>
       <div className="home-inner-item">
-        <img src="homepic.png" alt="Image 3" className="home-circle-image" />
+        <img src="https://static.wixstatic.com/media/e3bd0b_68efffefda1d429696aac99a888ed6f7~mv2.png/v1/fill/w_113,h_113,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1.png" alt="Image 3" className="home-circle-image" />
         <p className="home-image-name">Research Guidance</p>
         <p className="home-image-description">We offer PhD assistance and research guidance services for PhD experts will help you in completing your research at every PhD stage.</p>
       </div>

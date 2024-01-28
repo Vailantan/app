@@ -45,7 +45,7 @@ function Navbar() {
         </li>
         <li className="nav__item">
         <li className="nav__item">
-        <NavLink to="/verify" className="nav__link" >Certificate Verification</NavLink> 
+        <NavLink to="/verify" className="nav__link" >Verification</NavLink> 
         </li>
         
         </li>
