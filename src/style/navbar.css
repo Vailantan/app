@@ -15,7 +15,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: rgb(204, 204, 204);
+  color: white;
 }
 
 .nav {
@@ -28,7 +28,10 @@ a {
 
 }
 .nav__brand {
-  text-transform: uppercase;
+  font-family: 'Oswald';
+  text-align: left;
+    position: relative;
+   
 }
 
 .nav__menu {
@@ -81,4 +84,13 @@ a {
 }
 .toggle .line3 {
   transform: rotate(45deg) translate(-4px, -5px);
+}
+
+
+@media only screen and (max-width: 680px) {
+  .nav__brand {
+  
+      left: -13%;
+  }
+
 }

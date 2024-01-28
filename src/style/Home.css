@@ -28,6 +28,7 @@
 }
 
 .border-container {
+  cursor: pointer;
   position: absolute;
   top: 70%;
   left: 50%;

@@ -66,13 +66,13 @@ const Verification=() =>{
 </>)}
   {showDiv1 && (
     <div>
-      {<p className='p-status' style={{ color: " #66ff00", textAlign: "left" }}>&nbsp;&nbsp;Name : {certificateData['Name']} <br /> <br /> &nbsp;&nbsp;Domain : {certificateData['Domain']} <br /> <br /> &nbsp;&nbsp;Certificate ID : {certificateData['certificateId']}</p>}
+      {<p className='p-status' style={{ color: "#fff;", textAlign: "left" }}>&nbsp;&nbsp;Name : {certificateData['Name']} <br />&nbsp;&nbsp;Roll No : {certificateData['RollNo']} <br />&nbsp;&nbsp;Domain : {certificateData['Domain']} <br />&nbsp;&nbsp;From Date : {certificateData['from']}<br />&nbsp;&nbsp;To Date : {certificateData['todate']}<br />&nbsp;&nbsp;Certificate ID : {certificateData['certificateId']}</p>}
 
     </div>
   )}
   {showDiv2 && (
     <div className='showdiv2'>
-      {<p className='p-status' style={{ color: "red", textAlign: "center" }}>INVALID CODE  <br /><br /> PLEASE TRY AGAIN</p>}
+      {<p className='p-status' style={{ color: "#fff", textAlign: "center" }}>INVALID CODE  <br /><br /> PLEASE TRY AGAIN</p>}
 
     </div>
   )}
@@ -89,7 +89,7 @@ const Verification=() =>{
 </div>
 
 <div className="home-outer-container"  >
-<div className="home-centered-text">Services</div>
+<div className="home-centered-text">Verification</div>
 <p className="verify-description">This page allows you to verify whether the certificates you have been presented by one of our students are authentic. Every certificate includes an individual verification number in the bottom right corner of the page.
 For every electronic certificate that is generated, a record is created and saved in our database. After you have entered the number, the database will verify whether such a record exists. . If it does, you will receive a confirmation of the following information: Student Name, Domain, Certificate ID.</p>
 </div>

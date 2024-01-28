@@ -15,11 +15,23 @@ function Navbar() {
       setIcon("nav__toggler toggle");
     } else setIcon("nav__toggler");
   };
+  const handleRedirect = (url) => {
+    window.open(url, '_blank'); // Open the link in a new tab
+  };
   return (
     <nav className="nav">
-      <a href="#" className="nav__brand">
+      <a href="/" className="nav__brand">
         Dhara Global Solution
       </a>
+      <div className="footer-icon" onClick={() => handleRedirect('https://www.linkedin.com/company/dhara-global-solutions/')}>
+      <img src='white-linked-in-logo-of-two-letters.png' alt="LinkedIn Icon" />
+    </div>
+    <div className="footer-icon" onClick={() => handleRedirect('https://mail.google.com/mail/u/0/#inbox')}>
+      <img src='white-link.png' alt="External Link Icon" />
+    </div>
+    <div className="footer-icon" onClick={() => handleRedirect('https://www.instagram.com/dharaglobalsolutions/')}>
+      <img src='white-instagram.png' alt="Instagram Icon" />
+    </div>
       <ul className={active}>
         <li className="nav__item">
         <NavLink to="/" className="nav__link" >Home</NavLink> 
@@ -59,6 +71,8 @@ function Navbar() {
         <NavLink to="/book" className="nav__link" >Book</NavLink> 
         </li>
         </li>
+      
+       
       </ul>
       <div onClick={navToggle} className={icon}>
         <div className="line1"></div>

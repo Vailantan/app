@@ -1,7 +1,7 @@
 import React from 'react';
 import "../style/Home.css";
 import { motion, useViewportScroll, useTransform } from 'framer-motion';
-
+import {NavLink} from 'react-router-dom';
 
 export default function Home() {
   const { scrollYProgress } = useViewportScroll();
@@ -13,9 +13,9 @@ export default function Home() {
       <motion.div className="main-container" style={{ scale: scale }}>
         <img src="homepic.png" alt="Your Image Description"/> 
         <div className="overlay-text">Learn with Dhara Global Solutions</div>
-        <div className="border-container">
+        <NavLink to="/verify" className="border-container">
           <p>Get in touch</p>
-        </div>
+        </NavLink>
       </motion.div>
 
       <div className="parent-container" >
