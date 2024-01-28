@@ -62,7 +62,7 @@ const Verification=() =>{
   {certificateDetails && (<><div className='certificate-container' >
   <p className='p-animate'  > Enter Your Certificate Id </p>
 </div>
-<div className ="arrow"> <img src="side-arrow.gif" alt="gif"/></div>  
+<div className ="arrow"> <img src="https://i.imgur.com/9JgRHOI.gif" alt="gif"/></div>  
 </>)}
   {showDiv1 && (
     <div>
